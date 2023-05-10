@@ -6,12 +6,14 @@ export default function Visionduposteblock() {
   return (
     <div className='CC'>
     <div className='mainContainer1'>
+        <a style={{textDecoration:"none"}} href="https://interacttunisie.org/index">
         <div className="block1 web">
             <img src="https://content.app-sources.com/s/59331098935990817/uploads/Images/www-3293716.png" alt="presentation"  />
             <p className="blocktitle1">le site web</p>
             <div className="smalldivider1"></div>
             <p className="blockdescreption1">-Occupation de la mise en place d’un site Web pour la CNIT<br/>- la création de l’accessibilité aux différentes plateformes numériques que nécessite la CNIT ( application...)</p>
         </div>
+        </a>
         <div className="block1">
             <img src="https://content.app-sources.com/s/59331098935990817/uploads/Images/structure-hierarchique-3293751.png" alt="presentation"  />
             <p className="blocktitle1">la commission</p>

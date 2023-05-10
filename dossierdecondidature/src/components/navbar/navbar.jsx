@@ -54,12 +54,12 @@ export default function Navbar() {
           <div style={{textAlign:"center"}} className="offcanvas-body darkbgcolor">
             <div className='offcanvasLinksContainer'>
                <a style={{color:"#4eb3ea"}} href="/Presentation-personnelle">Presentation personnelle</a> 
-               <a href="/vision-du-poste">vision du poste</a> 
-               <a href="/stratégies-et-objectifs">strategies et objectifs</a> 
-               <a href="/en-relation-avec-le-site">en relation avec le site</a> 
-               <a href="/en-relation-avec-l-application">en relation avec l'application</a> 
-               <a href="/en-relation-avec-le-comité">en realtion avec le comité</a> 
-               <a href="/pourqoi-moi">pourquoi moi ?</a>
+               <a href="/vision-du-poste">Vision du poste</a> 
+               <a href="/stratégies-et-objectifs">Strategies et objectifs</a> 
+               <a href="/en-relation-avec-le-site">En relation avec le site</a> 
+               <a href="/en-relation-avec-l-application">En relation avec l'application</a> 
+               <a href="/en-relation-avec-le-comité">En realtion avec le comité</a> 
+               <a href="/pourqoi-moi">Pourquoi moi ?</a>
                <a href="/votre-avis"><button className='navbtn'>votre avis</button></a>
             </div>
           </div>
@@ -69,22 +69,22 @@ export default function Navbar() {
         <img className='logoimg' src={logo} alt="logo"  /></a>
       </div>
       <div className='toplinksContainer'>
-        <a href='/presentation-personnelle'>presentation personnelle</a>
-        <a href='/vision-du-poste'>vision du poste</a>
+        <a href='/presentation-personnelle'>Presentation personnelle</a>
+        <a href='/vision-du-poste'>Vision du poste</a>
         <HtmlTooltip
         title={
           <div>
-            <div className='tooltipInsideLinks' ><a href="en-relation-avec-le-site">en relation avec le site</a></div>
-            <div className='tooltipInsideLinks' ><a href="en-relation-avec-l-application">en relation avec l'application</a></div>
-            <div className='tooltipInsideLinks' ><a href="en-relation-avec-le-comité">en realtion avec le comité</a></div>
+            <div className='tooltipInsideLinks' ><a href="en-relation-avec-le-site">En relation avec le site</a></div>
+            <div className='tooltipInsideLinks' ><a href="en-relation-avec-l-application">En relation avec l'application</a></div>
+            <div className='tooltipInsideLinks' ><a href="en-relation-avec-le-comité">En realtion avec le comité</a></div>
           </div>
             }
           >
-           <a href="/stratégies-et-objectifs"><button className='tooltipbtn'>strategies et objectifs </button></a>
+           <a href="/stratégies-et-objectifs"><button className='tooltipbtn'>Strategies et objectifs </button></a>
         </HtmlTooltip>  
 
         <a href='/pourqoi-moi'>pourquoi moi ?</a>
-        <a href="/votre-avis"><button className='navbtn'>votre avis</button></a>
+        <a href="/votre-avis"><button className='navbtn'>Votre avis</button></a>
 
       </div>
       

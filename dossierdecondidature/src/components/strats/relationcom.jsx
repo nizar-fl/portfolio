@@ -6,7 +6,7 @@ import Linkbutton from '../Linkbutton/Linkbutton'
 export default function Relationcom() {
   return (
     <div> 
-        <TitleAftetNav title="en relation avec le comité"/>
+        <TitleAftetNav title="En relation avec le comité"/>
         <div className='mainContainer1'>
             
             <div className="block1 ">
@@ -23,12 +23,12 @@ export default function Relationcom() {
             </div>
             <div className="block1">
                 <img src="https://content.app-sources.com/s/59331098935990817/thumbnails/640x480/Images/justice-court-svgrepo-com-3486441.svg" alt="presentation"  />
-                <p className="blocktitle1">chef du protocole</p>
+                <p className="blocktitle1">Chef du protocole</p>
                 <div className="smalldivider1"></div>
                 <p className="blockdescreption1">-Développer un système de suivi d'assiduité pour les membres de la CNIT (absences ,activité,...)</p>
             </div>
         </div>
-        <a href="/pourqoi-moi"><Linkbutton title="pourqoi moi"/></a>
+        <a href="/pourqoi-moi"><Linkbutton title="Pourquoi moi"/></a>
     </div>
   )
 }

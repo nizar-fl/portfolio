@@ -21,13 +21,13 @@ export default function Footer() {
 
             <p className='leftblocktitle'>sommaire</p>
             <div className="seperatingline"></div>
-            <a href='/' className='footerlinks' >presentation</a>
-            <a href='/' className='footerlinks' >vision du poste</a>
-            <a href='/' className='footerlinks' >strategies et objectifs:</a>
-            <a href='/' className='footerlinks' >en relation avec le site</a>
-            <a href='/' className='footerlinks' >en relation avec l'application</a>
-            <a href='/' className='footerlinks' >en relation avec le comité</a>
-            <a href='/' className='footerlinks' >pourquoi moi ?</a>
+            <a style={{color:"#4eb3ea"}} href="/Presentation-personnelle">Presentation personnelle</a> 
+               <a href="/vision-du-poste">Vision du poste</a> 
+               <a href="/stratégies-et-objectifs">Strategies et objectifs</a> 
+               <a href="/en-relation-avec-le-site">En relation avec le site</a> 
+               <a href="/en-relation-avec-l-application">En relation avec l'application</a> 
+               <a href="/en-relation-avec-le-comité">En realtion avec le comité</a> 
+               <a href="/pourqoi-moi">Pourquoi moi ?</a>
           </div>
       </div>
     </div>

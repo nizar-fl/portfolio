@@ -11,7 +11,7 @@ import Linkbutton from '../Linkbutton/Linkbutton'
 export default function Relationapp() {
   return (
     <div >
-        <TitleAftetNav title="en relation avec l'application "/>
+        <TitleAftetNav title="En relation avec l'application "/>
         <div className='CC'>
         <div className="ReApp-mainContainer">
             <div className="ReApp-leftbox">
@@ -19,16 +19,16 @@ export default function Relationapp() {
                 <div className="ReApp-Small-P-block">
                     <div className="ReApp-flexContainer">
                         <img src={settingIcon} alt="Icon" />
-                        <p className='Small-P-block-title'>planification stratégique </p>
+                        <p className='Small-P-block-title'>Planification stratégique </p>
                     </div>
-                    <p className='Small-P-block-description'>définir  les étapes de la préparation de l'application : <br /> estimation budgétaire si nécessaire+ répartition des taches .</p>
+                    <p className='Small-P-block-description'>Définir  les étapes de la préparation de l'application : <br /> estimation budgétaire si nécessaire+ répartition des taches .</p>
                 </div>
                 <div className="ReApp-Small-P-block">
                     <div className="ReApp-flexContainer">
                         <img src={imageIcon} alt="Icon" />
-                        <p className='Small-P-block-title'>design de l'interface de l'application </p>
+                        <p className='Small-P-block-title'>Design de l'interface de l'application </p>
                     </div>
-                    <p className='Small-P-block-description'>choisir un design pour les interfaces de l'application.</p>
+                    <p className='Small-P-block-description'>Choisir un design pour les interfaces de l'application.</p>
                 </div>
                 
 
@@ -69,7 +69,7 @@ export default function Relationapp() {
         </div>
 
         
-        <a href="/en-relation-avec-le-comité"><Linkbutton title="relation avec le comité"/></a>
+        <a href="/en-relation-avec-le-comité"><Linkbutton title="En relation avec le comité"/></a>
 
 
 
