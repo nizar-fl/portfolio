@@ -17,7 +17,7 @@ export default function PourquoiM() {
           
           <img src={darine} alt="" />
           <div className="speech">
-            <h3>Sarine Jameli ,cheffe internationale :</h3>
+            <h3>Darine Jameli ,cheffe internationale :</h3>
             <p>étant non seulement l’une des personnes les plus sérieux mais aussi les plus talentueux que j’ai jamais fréquentés, je peux vous assurer qu’asser avec son caractère et ses diverses qualités est parfaitement désigné pour ce poste.</p>
           </div>
 
@@ -25,7 +25,7 @@ export default function PourquoiM() {
         <div className='SBContainer'>
           <img src={lamis} alt="" />
           <div className="speech">
-            <h3>Lemis  Seramdini ,secrétaire actuelle ,<br />Drc zone 7 :</h3>
+            <h3>Lemis Zeramdini ,secrétaire actuelle ,<br />Drc zone 7 :</h3>
             <p>Le 2 septembre 2021 , une date clé dans ma vie d'interactienne , le jour où j'ai passé mon entretien d'embauche pour intégrer le club et le jour où j'ai rencontré Asser .
             Durant sa période d'essai , il a fourni un grand effort d'assiduité ,  d'activité et d'automie pour arracher sa place dans le club et être un membre officiel . Tous les deux , on a mis des objectifs dès notre entrée : occuper des postes dans le bureau exécutif et travailler au bénifice de notre club. Asser a perfectionné toutes ses tâches dans la trésorie et aussi entant que membre . Son amour pour l'innovation, l'informatique et le dévloppement des sites web l'a poussé à vouloir occuper la direction d'une mission qu'il trouve intéressante et importante pour le progrès du mouvement interactien en Tunisie .
             Il possède la motivation , l'autonomie et le talent nécessaire pour se charger de cette mission.</p>
@@ -44,7 +44,7 @@ export default function PourquoiM() {
         <div className='SBContainer'>
           <img src="https://media.discordapp.net/attachments/979848835545321472/1105987179785748511/abbes.jpg?" alt="" />
           <div className="speech">
-            <h3>Yassmine Abbes :</h3>
+            <h3>Yassmine Abbes ,présidente actuelle de l'icsg ,<br /> secrétaire adjointe actuelle de la CNIT:</h3>
             <p>Que dire de Asser? Ou plutôt que ne pas dire de Asser? Un interactien travailleur, un membre créatif et une belle âme. Asser est l’equilibre parfait entre développement personnel et professionnel, qui sert de membre actif et d’ami sur lequel tu peux toujours compter</p>
           </div>
 
