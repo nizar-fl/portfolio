@@ -1,17 +1,21 @@
 import React from 'react'
 import './stratscss.css'
 import Linkbutton from '../Linkbutton/Linkbutton'
+import TitleAftetNav from '../title/titleAftetNav'
 
 export default function Relationsite() {
   return (
-    <div className='relation-avec-siteContainer'>
+    <div >
+        <TitleAftetNav title="en relation avec le site"/>
+        <div className='relation-avec-siteContainer'>
         <div className='first-rs-block'>
             <img src="https://content.app-sources.com/s/59331098935990817/uploads/1.0/capture_decran_2.0-3362795.png" alt="" />
             <div className="middle-rs-block">
                 <h3 className='secondblocktitle'>paiement en ligne</h3>
                 <br />
                 <br />
-                <p >ajouter l'option de paiement en ligne pour les items de boutique interactienne.</p>
+                <p >La mission digitalisation a pour objectif de faciliter les procédures traditionnelles et les rendre plus rapides et plus efficaces . C'est pourcela que je propose une nouvelle option au sein  qui permettera d'effectuer  le payement des frais de participations aux séminaires . Ceci rendra alors cette tâche plus dynamique .
+zidha paiement en ligne</p>
             </div>
             <img src="https://content.app-sources.com/s/59331098935990817/uploads/Images/paiement_4.0-3364041.png" alt="" />
         </div>
@@ -41,7 +45,7 @@ export default function Relationsite() {
         
     
         <a href="/en-relation-avec-l-application"><Linkbutton title="en relation avec l'application" /></a>
-        
+        </div>
       </div>
   )
 }

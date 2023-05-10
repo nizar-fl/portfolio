@@ -4,7 +4,7 @@ import Linkbutton from '../Linkbutton/Linkbutton'
 
 export default function Visionduposteblock() {
   return (
-    <div>
+    <div className='CC'>
     <div className='mainContainer1'>
         <div className="block1 web">
             <img src="https://content.app-sources.com/s/59331098935990817/uploads/Images/www-3293716.png" alt="presentation"  />
@@ -26,8 +26,10 @@ export default function Visionduposteblock() {
         </div>
         
     </div>
-    <div style={{justifySelf:"center"}}>
-        <a href="/stratégies-et-objectifs"><Linkbutton title="stratégies et objectifs"/></a></div>
+        <div style={{justifySelf:"center"}}>
+            <a href="/stratégies-et-objectifs"><Linkbutton title="stratégies et objectifs"/></a>
+        </div>
     </div>
+    
   )
 }

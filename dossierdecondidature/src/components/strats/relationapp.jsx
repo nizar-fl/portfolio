@@ -10,8 +10,9 @@ import Linkbutton from '../Linkbutton/Linkbutton'
 
 export default function Relationapp() {
   return (
-    <div>
+    <div >
         <TitleAftetNav title="en relation avec l'application "/>
+        <div className='CC'>
         <div className="ReApp-mainContainer">
             <div className="ReApp-leftbox">
 
@@ -73,7 +74,7 @@ export default function Relationapp() {
 
 
 
-        
+        </div>
     </div>
   )
 }
