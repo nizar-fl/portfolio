@@ -2,14 +2,14 @@ import React from 'react'
 import "./Linkbuttoncss.css"
 import { Link, useNavigate } from 'react-router-dom'
 
-export default function Linkbutton({title,linkto}) {
+export default function Linkbutton({title}) {
     const navigate = useNavigate(); 
     
 
   return (
 
     <div className='buttonContainer'>
-        <button onClick={()=>navigate({linkto})} className='linkbutton'>{title}</button>
+        <button  className='linkbutton'>{title}</button>
     </div>
   )
 }

@@ -100,8 +100,11 @@ export default function PPersonnelle() {
                 </div>
             </div>
 
-            <Linkbutton title="relation avec l'application" linkto="/" />
-        </div>   
+            
+        </div>
+        <div style={{justifySelf:"center"}}>
+        <a href="/vision-du-poste"><Linkbutton title="Vision du poste"/></a></div>
+           
     </div>
   )
 }

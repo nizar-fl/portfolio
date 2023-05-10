@@ -11,6 +11,8 @@ import PPersonnellePage from './pages/PPersonnellePage';
 import StratsPage from './pages/stratsPage';
 import EnrelationPage from './pages/EnrelationPage';
 import RelationavSite from './pages/relationavSite';
+import EnrelatoinavAppPage from './pages/EnrelatoinavAppPage';
+import PourquoiMoiPage from './pages/PourquoiMoiPage';
 
 function App() {
   return (
@@ -24,8 +26,9 @@ function App() {
           <Route path="/presentation-personnelle" element={<PPersonnellePage/>} />
           <Route path="/stratégies-et-objectifs" element={<StratsPage/>} />   
           <Route path="/en-relation-avec-le-comité" element={<EnrelationPage/>} />  
-          <Route path="/en-relation-avec-le-site" element={<RelationavSite/>} />  
-
+          <Route path="/en-relation-avec-le-site" element={<RelationavSite/>} />
+          <Route path="/en-relation-avec-l-application" element={<EnrelatoinavAppPage/>} />  
+          <Route path="/pourqoi-moi" element={<PourquoiMoiPage/>}/>
         </Routes>
         <Footer/>
         <CopyrightSection/>

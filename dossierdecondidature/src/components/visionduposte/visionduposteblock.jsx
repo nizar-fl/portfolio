@@ -1,8 +1,10 @@
 import React from 'react'
 import './visionduposte.css'
+import Linkbutton from '../Linkbutton/Linkbutton'
 
 export default function Visionduposteblock() {
   return (
+    <div>
     <div className='mainContainer1'>
         <div className="block1 web">
             <img src="https://content.app-sources.com/s/59331098935990817/uploads/Images/www-3293716.png" alt="presentation"  />
@@ -22,6 +24,10 @@ export default function Visionduposteblock() {
             <div className="smalldivider1"></div>
             <p className="blockdescreption1">-travail en collaboration avec les chefs missions de l CNIT .<br/>-travail en collaboration avec les membres de comité de la CNIT.</p>
         </div>
+        
+    </div>
+    <div style={{justifySelf:"center"}}>
+        <a href="/stratégies-et-objectifs"><Linkbutton title="stratégies et objectifs"/></a></div>
     </div>
   )
 }

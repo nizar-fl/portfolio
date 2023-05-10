@@ -38,7 +38,9 @@ export default function Relationsite() {
           <br />
           <br /><br />
         </div>
-        <Linkbutton title="relation avec l'application" />
+        
+    
+        <a href="/en-relation-avec-l-application"><Linkbutton title="en relation avec l'application" /></a>
         
       </div>
   )

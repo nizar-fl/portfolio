@@ -1,5 +1,7 @@
 import React from 'react'
 import TitleAftetNav from '../title/titleAftetNav'
+import './stratscss.css'
+import Linkbutton from '../Linkbutton/Linkbutton'
 
 export default function Relationcom() {
   return (
@@ -26,6 +28,7 @@ export default function Relationcom() {
                 <p className="blockdescreption1">-Développer un système de suivi d'assiduité pour les membres de la CNIT (absences ,activité,...)</p>
             </div>
         </div>
+        <a href="/pourqoi-moi"><Linkbutton title="pourqoi moi"/></a>
     </div>
   )
 }
